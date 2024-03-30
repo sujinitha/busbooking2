@@ -1,0 +1,42 @@
+.bus {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .bus_seat {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .seat {
+    margin: 5px;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('./seat.png') no-repeat center center; /* Use ./ to reference files in the same directory */
+    cursor: pointer;
+  }
+  /* Add this CSS to your stylesheet */
+.booked {
+  background-color: grey; /* Change to the desired color for booked seats */
+}
+
+  
+  
+  .selected {
+    background-color: green;
+  }
+  
+  .booked {
+    background-color: red;
+  }
+  

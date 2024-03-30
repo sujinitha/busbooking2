@@ -1,0 +1,73 @@
+/* BusSearchResult.css */
+
+/* General styles */
+.bus-search-result {
+  margin-top: 20px;
+}
+
+.bus-item {
+  width: calc(30% - 20px); /* Adjust width here */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: inline-block; /* Ensure items stay in line */
+  vertical-align: top; /* Align items to the top */
+  margin-right: 20px; /* Add margin between items */
+}
+
+.bus-details {
+  margin-bottom: 10px;
+}
+
+.bus-type, .seat-type {
+  margin: 0;
+}
+
+.seat-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seat-link {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* Seat styles */
+.seat {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Seat type specific colors */
+.AC {
+  background-color: #7fffd4; /* Aquamarine */
+}
+
+.NonAC {
+  background-color: #ffa07a; /* Light Coral */
+}
+
+.Sleeper {
+  background-color: #87ceeb; /* Sky Blue */
+}
+
+.SemiSleeper {
+  background-color: #ff69b4; /* Hot Pink */
+}
+
+/* Selected seat style */
+.selected {
+  background-color: #ffc0cb; /* Pink */
+}
+
+/* Hover effect for selected seats */
+.selected:hover {
+  background-color: #ffb6c1; /* Light Pink */
+}
